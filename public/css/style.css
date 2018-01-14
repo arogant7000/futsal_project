@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Economica');
+
+html{
+
+    /* supaya naik 1 dimensi */
+    position: relative;
+}   
+
+body{
+    font-family: 'Economica', sans-serif;
+    padding-top: 15px;
+    line-height: 2;
+    margin-top: 75px;
+    margin-bottom: 100px;
+    font-size: 17px;
+}
+
+.navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.img-logo{
+   margin-top: -15px;
+    height: 50px;
+    width: auto;
+}
+
+.about{
+    min-height: 800px;
+}
+
+.contect-admin {
+
+    min-height: 700px;
+}
+
+.infor {
+    min-height: 600px;
+}
+
+.information {
+    min-height: 800px;
+}
+
+.pKiri, .pKanan {
+    opacity: 0;
+    transform: translate(-50px, 0) rotate(15deg);
+    transition: 1s;
+}
+
+.pKanan {
+    transform: translate(50px, 0) rotate(-15deg);
+}
+
+.pKiri.pMuncul,  .pKanan.pMuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+hr {
+    width: 250px;
+    border: 2px solid #eef; 
+}
+
+.facility {
+    min-height: 400px;
+}
+
+.facility h2{
+  
+        text-align: center;
+        border: 2px solid;
+        padding: 15px;
+        height: 80px;
+        width: 150px;
+        align-content: center;
+  
+}
+
+.maps {
+    min-height: 650px;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+    border: 2px dashed aquamarine;
+}
+
+.contact {
+    min-height: 750px;
+}
+
+footer{
+    /* , dan supaya fungsi position top botton left right berfungsi */
+    position: absolute;
+    bottom: 0;
+    
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    padding-top: 10px;
+}
+
+footer h3{
+    color: #fdfbfb;
+}
+
+footer h3 i {
+    color: #da0e0e;
+}
+
+.cek-pemesanan{
+    min-height: 710px;
+}
+
+.heading-1 {
+    min-height: 150px;
+}
+
+.tabel {
+    min-height: 300px;
+}
+
+.tabel-pesanan {
+    min-height: 550px;
+}
+
+.input-pesanan {
+    min-height: 580px;
+}
+
+.paginate{
+    min-height: 130px;
+}
+
+.input-cek {
+    align-content: center;
+    height: 60px;
+    text-align: center;
+    font-style: italic;
+    font-size: 27px;
+    border: ridge;
+    margin-top: 50px;
+}
+
+.pembayaran{
+    min-height: 1000px;
+}
+
+.pembayaran ul {
+    list-style: none;
+}
+
+.notif  {
+    font-size: 14px;
+}
+
+.persen{
+    height: 30px;
+    width: 80px;
+}
+
+.contect-admin input{
+    border-style: dotted solid;
+    border-radius: 10px;
+}
+.checkbox-section {
+    min-height: 500px;
+}
+
+.checkbox-section h3{
+    padding: 7px;
+   border-style: dashed solid;
+   border-radius: 10px;
+   background-color: rgb(238, 6, 6);
+   color: #fdfbfb;
+}
+
+
+.checkbox-section ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.checkbox-section p {
+    border-bottom-style: dashed;
+    text-align: center;
+    background-color: rgb(232, 232, 233);
+}
+.checkbox-section .check{
+    height: 20px;
+    width: 18px;
+}
+
+.btn-pjg{
+    background-color: #da0e0e;
+    height: 40px;
+    width: 400px;
+}
+
+.back{
+    background-color: rgb(238, 6, 6);
+    border: solid 1px;
+    color: #eef;
+    border-radius: 30px;
+    padding: 10px;    
+}
